@@ -1,0 +1,53 @@
+{
+  "platform": "douyin",
+  "url": "https://v.douyin.com/UgFyFobz6sk/",
+  "title": "你永远梳不平毛球，这个宇宙bug让游戏开发者崩溃了！ #科普 #科普一下 #探索与发现 #毛球",
+  "description": "你永远梳不平毛球，这个宇宙bug让游戏开发者崩溃了！ #科普 #科普一下 #探索与发现 #毛球",
+  "author": {
+    "nickname": "宇宙没有售后",
+    "uid": "84883347250",
+    "sec_uid": "MS4wLjABAAAAB-snWs41kdFAh0VIXqAP3a67LE2iwZCuDOlVuIDzQNOE9mnNHQ6EzAFTFoC6VlkM",
+    "bio": "宇宙知识，一经讲解，概不退换！\n听完脑子炸了不负责修。",
+    "followers": 510000,
+    "following": 20,
+    "total_likes": 8499715,
+    "works_count": 63
+  },
+  "stats": {
+    "likes": 32345,
+    "comments": 617,
+    "shares": 2736,
+    "collects": 6199,
+    "views": 0,
+    "danmaku": 0,
+    "coins": 0,
+    "reposts": 0
+  },
+  "media": [
+    {
+      "url": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000d62qr77og65la00k0jh0&ratio=720p&line=0",
+      "type": "video",
+      "width": 2560,
+      "height": 1440
+    }
+  ],
+  "tags": [
+    "科普",
+    "科普一下",
+    "探索与发现",
+    "毛球"
+  ],
+  "comments": [],
+  "raw_id": "7603687816681311524",
+  "create_time": "2026-02-06T17:52:22",
+  "duration": 446,
+  "cover_url": "https://p26-sign.douyinpic.com/tos-cn-i-dy/91745f7746064b2a86762736ea99d6d5~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1771747200&x-signature=q3U%2BnYvk5SUHRQACTJsGrJU5RJo%3D&from=327834062&s=PackSourceEnum_DOUYIN_REFLOW&se=false&sc=cover&biz_tag=aweme_video&l=20260208160820A297E5A6575034AE4716",
+  "avatar_url": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_oMddxArRZNAPdEIpAMFfACg6LnIA3YEh9ADfAT.jpeg?from=327834062",
+  "music": "@宇宙没有售后创作的原声一宇宙没有售后 - 宇宙没有售后",
+  "location": "",
+  "is_ad": false,
+  "note_type": "",
+  "pages": [],
+  "quality_list": [],
+  "related": []
+}

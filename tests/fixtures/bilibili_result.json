@@ -1,0 +1,70 @@
+{
+  "platform": "bilibili",
+  "url": "https://www.bilibili.com/video/BV1GJ411x7h7",
+  "title": "【官方 MV】Never Gonna Give You Up - Rick Astley",
+  "description": "-",
+  "author": {
+    "nickname": "索尼音乐中国",
+    "uid": "486906719",
+    "sec_uid": "",
+    "bio": "更多音乐请右滑收藏夹～欢迎投稿字幕",
+    "followers": 900599,
+    "following": 8,
+    "total_likes": 6388260,
+    "works_count": 252333
+  },
+  "stats": {
+    "likes": 2618140,
+    "comments": 179646,
+    "shares": 428848,
+    "collects": 1373310,
+    "views": 95868665,
+    "danmaku": 134530,
+    "coins": 1136401,
+    "reposts": 0
+  },
+  "media": [
+    {
+      "url": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/99/91/137649199/137649199_da2-1-192.mp4?e=ig8euxZM2rNcNbNM7wdVhwdlhbKMhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&deadline=1770545303&uipk=5&oi=1875041554&mid=0&og=ali&platform=pc&trid=65c7e220bc3c4a778a36cc313896dffu&nbs=1&gen=playurlv3&os=estgoss&upsig=90e29e54708fcc0bf8713306961ec843&uparams=e,deadline,uipk,oi,mid,og,platform,trid,nbs,gen,os&bvc=vod&nettype=0&bw=1952049&dl=0&f=u_0_0&qn_dyeid=c7afb1f4e03ceb8100524b7c69884477&agrr=1&buvid=&build=0&orderid=0,3",
+      "type": "video",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "url": "http://i1.hdslb.com/bfs/archive/5242750857121e05146d5d5b13a47a2a6dd36e98.jpg",
+      "type": "image",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "tags": [
+    "Never Gonna Give You Up",
+    "Rick Astley",
+    "欧美MV",
+    "流行音乐",
+    "欧美音乐",
+    "MV"
+  ],
+  "comments": [],
+  "raw_id": "BV1GJ411x7h7",
+  "create_time": "2020-01-01T07:43:23",
+  "duration": 213,
+  "cover_url": "http://i1.hdslb.com/bfs/archive/5242750857121e05146d5d5b13a47a2a6dd36e98.jpg",
+  "avatar_url": "https://i2.hdslb.com/bfs/face/6bc95d0670863d36bf9167a37b825c39ce258506.jpg",
+  "music": "",
+  "location": "",
+  "is_ad": false,
+  "note_type": "",
+  "pages": [],
+  "quality_list": [
+    {
+      "qn": 64,
+      "label": "720P"
+    },
+    {
+      "qn": 16,
+      "label": "360P"
+    }
+  ],
+  "related": []
+}
