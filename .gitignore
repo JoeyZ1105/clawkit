@@ -7,3 +7,8 @@ build/
 *.egg-info/
 .venv/
 .env
+.pytest_cache/
+*.log
+
+# Cookie files (contain sensitive session data)
+cookies.json

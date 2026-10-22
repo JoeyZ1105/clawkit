@@ -3,7 +3,13 @@ from types import SimpleNamespace
 import pytest
 
 import clawkit
-from clawkit.ocr import extract_video_text, ocr_and_merge
+from clawkit.ocr import ocr_and_merge
+
+try:
+    from google import genai
+    HAS_GENAI = True
+except ImportError:
+    HAS_GENAI = False
 
 
 @pytest.mark.unit
@@ -51,7 +57,9 @@ class Describe_ocr_and_merge:
 
 
 @pytest.mark.unit
+@pytest.mark.skipif(not HAS_GENAI, reason="google-genai not installed")
 def test_extract_video_text_with_mock(monkeypatch, tmp_path):
+    from clawkit.ocr import extract_video_text
     monkeypatch.setattr("clawkit.ocr._ffmpeg_available", lambda: True)
 
     class _MockResp:

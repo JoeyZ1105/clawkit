@@ -1,6 +1,6 @@
-from . import _legacy as _legacy
+__version__ = "3.4.0"
 
-__version__ = "3.3.1"
+from . import _legacy as _legacy
 
 # Export all names (including internal helpers used by tests).
 for _name in dir(_legacy):

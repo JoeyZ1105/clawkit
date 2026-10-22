@@ -44,7 +44,6 @@ import httpx
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 logger = logging.getLogger("clawkit")
-__version__ = "3.3.0"
 
 # ─── 签名引擎（可选） ─────────────────────────────────────────────────────────
 try:
@@ -3375,8 +3374,9 @@ def format_brief(r: ExtractResult) -> str:
 # ─── CLI ───────────────────────────────────────────────────────────────────────
 
 def main():
+    from clawkit import __version__
     parser = argparse.ArgumentParser(
-        description="ClawKit v3.3 - 社交媒体内容提取工具",
+        description=f"ClawKit v{__version__} - 社交媒体内容提取工具",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 支持平台: 抖音 | 小红书 | B站 | 微博 | 快手 | 知乎 | YouTube | Twitter/X

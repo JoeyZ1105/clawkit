@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-import auth
+from clawkit import auth
 
 
 @pytest.mark.unit
