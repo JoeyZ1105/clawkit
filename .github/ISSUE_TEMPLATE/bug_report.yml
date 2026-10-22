@@ -1,0 +1,83 @@
+name: Bug Report
+description: Report a bug in ClawKit
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill out the form below.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which social media platform is affected?
+      options:
+        - Douyin (抖音)
+        - Xiaohongshu (小红书)
+        - Bilibili (B站)
+        - Weibo (微博)
+        - Zhihu (知乎)
+        - Kuaishou (快手)
+        - YouTube
+        - Twitter/X
+        - GooFish (闲鱼)
+        - General / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the issue clearly
+      placeholder: What happened? What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Run `clawkit "https://..."`
+        2. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Output
+      description: Paste any error messages (use -v for verbose)
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: ClawKit Version
+      description: Run `clawkit --version` or `python -c "import clawkit; print(clawkit.__version__)"`
+      placeholder: "3.4.0"
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python Version
+      placeholder: "3.12"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - macOS
+        - Linux
+        - Windows
+        - Other
+    validations:
+      required: true

@@ -1,6 +1,6 @@
 import pytest
 
-import sign_engine
+from clawkit import sign_engine
 
 
 @pytest.mark.unit
